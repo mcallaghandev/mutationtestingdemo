@@ -3,6 +3,6 @@ using MutationTestingDemo;
 
 Console.WriteLine("Mutation Demo");
 
-var result = Calculator.Add(10, 5);
+var result = Calculator.Add(10, 6);
 
 Console.WriteLine($"result is {result}");

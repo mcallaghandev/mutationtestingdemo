@@ -34,5 +34,20 @@ namespace MutationTestingDemo
                 throw new ArgumentException("Cannot divide by zero");
             }
         }
+
+        public static double Power(double a, double b)
+        {
+            return Math.Pow(a, b);
+        }
+
+        public static double SquareRoot(double a)
+        {
+            if (a < 0)
+            {
+                throw new ArgumentException("Cannot calculate square root of a negative number");
+            }
+
+            return Math.Sqrt(a);
+        }
     }
 }
